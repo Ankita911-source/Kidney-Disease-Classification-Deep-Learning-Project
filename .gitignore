@@ -21,5 +21,8 @@ lib64/
 # Virtual Environment
 venv1/
 
+# Artifacts
+artifacts/
+
 
 
