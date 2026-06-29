@@ -1,1 +1,25 @@
-key: val
+# # for trial
+# AUGMENTATION: True
+# IMAGE_SIZE: [224, 224, 3] #as per vgg16 model
+# BATCH_SIZE: 16
+# INCLUDE_TOP: False
+# EPOCHS: 1
+# CLASSES: 2
+# WEIGHTS: imagenet
+# LEARNING_RATE: 0.01
+
+#for real training: vgg16 transfer learning 
+AUGMENTATION: True
+IMAGE_SIZE: [224, 224, 3] #as per vgg16 model
+BATCH_SIZE: 32
+INCLUDE_TOP: False
+EPOCHS: 30
+CLASSES: 2
+WEIGHTS: imagenet
+LEARNING_RATE: 0.001
+DROPOUT: 0.5
+PATIENCE: 5
+
+
+
+
